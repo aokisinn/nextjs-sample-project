@@ -26,7 +26,7 @@ const Sample1: NextPage = () => {
       </Link>
       <h1>useSpring sample</h1>
       <div style={{ textAlign: "center" }}>
-        {/* animated　タグで指定 */}
+        {/* アニメーションをあてるタグには必ず必要なタグ */}
         <animated.h1 style={styles}>Hey!!!!!</animated.h1>
       </div>
     </div>

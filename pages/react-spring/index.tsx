@@ -12,8 +12,13 @@ const Home: NextPage = () => {
       <Link href="/react-spring/useSpring/sample2">
         <a>useSpringSample2 ボタン押してアニメーション</a>
       </Link>
+      <br />
       <Link href="/react-spring/useSpring/sample3">
         <a>useSpringSample3 card押して反転</a>
+      </Link>
+      <br />
+      <Link href="/react-spring/useSpring/sample4">
+        <a>useSpringSample3 loader</a>
       </Link>
     </div>
   );
