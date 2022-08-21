@@ -1,7 +1,9 @@
 import { useSpring, animated } from "@react-spring/web";
+import { NextPage } from "next";
+import Link from "next/link";
 import React from "react";
 
-export default function useSpringSample1() {
+const Sample1: NextPage = () => {
   const styles = useSpring({
     from: {
       opacity: 0,
@@ -19,6 +21,9 @@ export default function useSpringSample1() {
 
   return (
     <div>
+      <Link href="/react-spring">
+        <a>戻る</a>
+      </Link>
       <h1>useSpring sample</h1>
       <div style={{ textAlign: "center" }}>
         {/* animated　タグで指定 */}
@@ -26,4 +31,6 @@ export default function useSpringSample1() {
       </div>
     </div>
   );
-}
+};
+
+export default Sample1;

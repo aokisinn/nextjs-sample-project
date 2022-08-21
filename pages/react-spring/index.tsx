@@ -4,7 +4,8 @@ import Link from "next/link";
 const Home: NextPage = () => {
   return (
     <div>
-      <Link href="/react-spring/useSpringSample">
+      {/* TODO Styles */}
+      <Link href="/react-spring/useSpring/sample1">
         <a>useSpringSample1 下から文字浮き出る</a>
       </Link>
     </div>
