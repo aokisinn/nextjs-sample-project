@@ -8,6 +8,10 @@ const Home: NextPage = () => {
       <Link href="/react-spring/useSpring/sample1">
         <a>useSpringSample1 下から文字浮き出る</a>
       </Link>
+      <br />
+      <Link href="/react-spring/useSpring/sample2">
+        <a>useSpringSample2 ボタン押してアニメーション</a>
+      </Link>
     </div>
   );
 };
