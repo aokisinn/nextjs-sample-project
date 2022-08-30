@@ -18,7 +18,11 @@ const Home: NextPage = () => {
       </Link>
       <br />
       <Link href="/react-spring/useSpring/sample4">
-        <a>useSpringSample3 loader</a>
+        <a>useSpringSample4 loader</a>
+      </Link>
+      <br />
+      <Link href="/react-spring/useSpring/sample5">
+        <a>useSpringSample5 スタイルメーカ</a>
       </Link>
     </div>
   );
