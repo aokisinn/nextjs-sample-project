@@ -1,6 +1,7 @@
 import React from 'react'
 import { useSpring, a } from '@react-spring/web'
 import styled from 'styled-components'
+import Link from 'next/link'
 
 export default function App() {
   const [toggle, setToggle] = React.useState(
@@ -41,6 +42,9 @@ export default function App() {
 
   return (
     <div>
+      <Link href="/react-spring">
+        <a>戻る</a>
+      </Link>
       <Container
         onClick={() => setToggle(!toggle)}
       >

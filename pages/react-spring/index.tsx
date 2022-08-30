@@ -24,6 +24,14 @@ const Home: NextPage = () => {
       <Link href="/react-spring/useSpring/sample5">
         <a>useSpringSample5 スタイルメーカ</a>
       </Link>
+      <br />
+      <Link href="/react-spring/useSpring/sample6">
+        <a>useSpringSample6 ランダム 参考コード</a>
+      </Link>
+      <br />
+      <Link href="/react-spring/useSpring/sample7">
+        <a>useSpringSample7 オリジナル</a>
+      </Link>
     </div>
   );
 };
